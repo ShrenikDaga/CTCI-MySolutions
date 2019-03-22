@@ -23,6 +23,7 @@
     <ProjectGuid>{FB2FF3CC-C041-44FB-8638-86B1F8EB1167}</ProjectGuid>
     <RootNamespace>AmazonInternQuestion2TreeAvg</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>Personal-TreeAvg</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
