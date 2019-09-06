@@ -34,7 +34,7 @@ int main()
 
 	std::vector<int> result;
 
-	result = twoSum(digits,7);
+	result = twoSum(digits,5);
 
 	return 0;
 }
