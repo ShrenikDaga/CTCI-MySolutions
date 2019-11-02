@@ -9,10 +9,10 @@
 #include <vector>
 #include <string>
 
-int myAtoi(std::string inputString)
+long myAtoi(std::string inputString)
 {
-	int index = inputString.find_first_not_of(' ' );
-	int sign = 1,result=0;
+	int index = inputString.find_first_not_of(' ');
+	long sign = 1,result=0;
 
 	if (inputString[index] == '+' || inputString[index] == '-')
 		sign = inputString[index++] == '+' ? 1 : -1;
